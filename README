@@ -1,0 +1,58 @@
+PyFMRipper
+----------------------------------------------------------------------------
+
+PyFMRipper is a set of scripts written in Python that can do the following:
+  - Establish a session with the Last.fm servers
+  - Tune into artist channels (e.g. Music Like Pink Floyd)
+  - Write to disk the playlist tracks
+  - Insert ID3 tags into the saved files using the information in the playlist
+  
+  
+These scripts were created out of my own fascination with the platform and love
+for music. Usage of these scripts maybe illegal in some countries! 
+
+
+I am not a Python developer by any stretch of the imagination, but I picked it up
+about 2 years ago and wanted to brush up on it a bit and this little project was
+an excuse for doing just that.
+
+The program has some reusable classes and a "driver" which uses them to tune in,
+save to disk, and tag the files. Putting the files into iTunes and requesting it
+to download album art usually does the trick unless the track is of some obscure 
+origin or a limited release album.
+
+
+DISCLAIMER:
+This is an initial release and works well enough to scratch my own itch. If it, 
+for some obscure reason, becomes popular I'll try to tie the loose ends and have 
+better error checking :).
+
+
+CREDITS:
+This could not have been possible if it wasn't for the awesome documentation done 
+by the folks behind TheLastRipper [http://thelastripper.com/] and 
+[http://code.google.com/p/thelastripper/]. The work done in these scripts is completely
+based on documentation found at: http://code.google.com/p/thelastripper/wiki/LastFM12UnofficialDocumentation
+
+Thanks Guys! 
+
+
+NOTES:
+I have only tested PyFMRipper on Mac OSX. I'm quite sure it work just fine everywhere
+else, but if you do have trouble, let me know and I'll try to help out.
+
+USAGE:
+
+./run.py [options]
+
+Options:
+  -h, --help                                      show this help message and exit
+  -u USER_NAME, --user_name=USER_NAME             Last.fm username
+  -p PASSWORD,  --password=PASSWORD               Last.fm password
+  -c CHANNEL,   --channel=CHANNEL                 Last.fm artist channel
+  -d DEST,      --destination=DEST                file store destination
+
+
+Dependencies:
+  - Python 2.5 or higher [http://www.python.org/]
+  - eyeD3 [http://eyed3.nicfit.net/]
