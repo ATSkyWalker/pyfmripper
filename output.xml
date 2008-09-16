@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<playlist xmlns:lastfm="http://www.audioscrobbler.net/dtd/xspf-lastfm" version="1">
+  <title>Music+like+Jack+Johnson</title>
+  <creator>Last.fm</creator>
+  <link rel="http://www.last.fm/skipsLeft">9999</link>
+  <trackList>
+    <track>
+      <location>http://kingpin5.last.fm/user/d94a00e0cd760daea0e377d124f15f42.mp3</location>
+      <title>Drive</title>
+      <id>1069393</id>
+      <album>Bang Bang</album>
+      <creator>Dispatch</creator>
+      <duration>178000</duration>
+      <image>http://userserve-ak.last.fm/serve/174s/8634623.jpg</image>
+      <lastfm:trackauth>22b4e</lastfm:trackauth>
+      <lastfm:albumId>1418892</lastfm:albumId>
+      <lastfm:artistId>1006302</lastfm:artistId>
+      <link rel="http://www.last.fm/artistpage">http://www.last.fm/music/Dispatch</link>
+      <link rel="http://www.last.fm/albumpage">http://www.last.fm/music/Dispatch/Bang+Bang</link>
+      <link rel="http://www.last.fm/trackpage">http://www.last.fm/music/Dispatch/_/Drive</link>
+      <link rel="http://www.last.fm/buyTrackURL"/>
+      <link rel="http://www.last.fm/buyAlbumURL">http://www.last.fm/affiliate_sendto.php?link=uapc&amp;prod=2210634&amp;pos=65633c2c6d40fbe9c8bf27ce82d2ca5a&amp;s=30</link>
+      <link rel="http://www.last.fm/freeTrackURL"/>
+    </track>
+    <track>
+      <location>http://kingpin5.last.fm/user/ea97866a2409180674d25a48cfa29d07.mp3</location>
+      <title>Empty</title>
+      <id>19989756</id>
+      <album>Till The Sun Turns Black</album>
+      <creator>Ray LaMontagne</creator>
+      <duration>316000</duration>
+      <image>http://userserve-ak.last.fm/serve/174s/9044695.png</image>
+      <lastfm:trackauth>9657b</lastfm:trackauth>
+      <lastfm:albumId>3218322</lastfm:albumId>
+      <lastfm:artistId>6686565</lastfm:artistId>
+      <link rel="http://www.last.fm/artistpage">http://www.last.fm/music/Ray+LaMontagne</link>
+      <link rel="http://www.last.fm/albumpage">http://www.last.fm/music/Ray+LaMontagne/Till+The+Sun+Turns+Black</link>
+      <link rel="http://www.last.fm/trackpage">http://www.last.fm/music/Ray+LaMontagne/_/Empty</link>
+      <link rel="http://www.last.fm/buyTrackURL"/>
+      <link rel="http://www.last.fm/buyAlbumURL">http://www.last.fm/affiliate_sendto.php?link=catch&amp;prod=3218322&amp;rt=8&amp;pos=65633c2c6d40fbe9c8bf27ce82d2ca5a&amp;s=1</link>
+      <link rel="http://www.last.fm/freeTrackURL"/>
+    </track>
+    <track>
+      <location>http://kingpin5.last.fm/user/bf23092e9b9f67c0ac0862f868cfab30.mp3</location>
+      <title>Kill the real</title>
+      <id>85559712</id>
+      <album>Demo</album>
+      <creator>Niclas Stagn&#xE9;r</creator>
+      <duration>178000</duration>
+      <image/>
+      <lastfm:trackauth>c746a</lastfm:trackauth>
+      <lastfm:albumId>3227768</lastfm:albumId>
+      <lastfm:artistId>15751240</lastfm:artistId>
+      <link rel="http://www.last.fm/artistpage">http://www.last.fm/music/Niclas+Stagn%C3%A9r</link>
+      <link rel="http://www.last.fm/albumpage">http://www.last.fm/music/Niclas+Stagn%C3%A9r/Demo</link>
+      <link rel="http://www.last.fm/trackpage">http://www.last.fm/music/Niclas+Stagn%C3%A9r/_/Kill+the+real</link>
+      <link rel="http://www.last.fm/buyTrackURL"/>
+      <link rel="http://www.last.fm/buyAlbumURL"/>
+      <link rel="http://www.last.fm/freeTrackURL">http://freedownloads.last.fm/download/85559712/Kill%2Bthe%2Breal.mp3</link>
+    </track>
+    <track>
+      <location>http://kingpin5.last.fm/user/56684b611dc62deb6863364e0821ace9.mp3</location>
+      <title>Out of My Mind</title>
+      <id>9358826</id>
+      <album>Back to Bedlam</album>
+      <creator>James Blunt</creator>
+      <duration>212000</duration>
+      <image>http://userserve-ak.last.fm/serve/174s/8672921.jpg</image>
+      <lastfm:trackauth>11e74</lastfm:trackauth>
+      <lastfm:albumId>2024446</lastfm:albumId>
+      <lastfm:artistId>6852364</lastfm:artistId>
+      <link rel="http://www.last.fm/artistpage">http://www.last.fm/music/James+Blunt</link>
+      <link rel="http://www.last.fm/albumpage">http://www.last.fm/music/James+Blunt/Back+to+Bedlam</link>
+      <link rel="http://www.last.fm/trackpage">http://www.last.fm/music/James+Blunt/_/Out+of+My+Mind</link>
+      <link rel="http://www.last.fm/buyTrackURL"/>
+      <link rel="http://www.last.fm/buyAlbumURL">http://www.last.fm/affiliate_sendto.php?link=catch&amp;prod=2024446&amp;rt=8&amp;pos=65633c2c6d40fbe9c8bf27ce82d2ca5a&amp;s=1</link>
+      <link rel="http://www.last.fm/freeTrackURL"/>
+    </track>
+    <track>
+      <location>http://kingpin5.last.fm/user/ec2a2bdc65a09ffe3553d2280517ac99.mp3</location>
+      <title>Beneath the Fire</title>
+      <id>2827652</id>
+      <album>Untold</album>
+      <creator>Pete Francis</creator>
+      <duration>269000</duration>
+      <image>http://userserve-ak.last.fm/serve/174s/8700937.jpg</image>
+      <lastfm:trackauth>48b9f</lastfm:trackauth>
+      <lastfm:albumId>2081592</lastfm:albumId>
+      <lastfm:artistId>1010611</lastfm:artistId>
+      <link rel="http://www.last.fm/artistpage">http://www.last.fm/music/Pete+Francis</link>
+      <link rel="http://www.last.fm/albumpage">http://www.last.fm/music/Pete+Francis/Untold</link>
+      <link rel="http://www.last.fm/trackpage">http://www.last.fm/music/Pete+Francis/_/Beneath+the+Fire</link>
+      <link rel="http://www.last.fm/buyTrackURL"/>
+      <link rel="http://www.last.fm/buyAlbumURL">http://www.last.fm/affiliate_sendto.php?link=catch&amp;prod=2081592&amp;rt=8&amp;pos=65633c2c6d40fbe9c8bf27ce82d2ca5a&amp;s=1</link>
+      <link rel="http://www.last.fm/freeTrackURL"/>
+    </track>
+  </trackList>
+</playlist>
