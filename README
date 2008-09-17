@@ -55,4 +55,6 @@ Options:
 
 Dependencies:
   - Python 2.5 or higher [http://www.python.org/]
+  - elementtree [http://effbot.org/zone/element-index.htm#installation]
   - eyeD3 [http://eyed3.nicfit.net/]
+  
