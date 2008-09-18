@@ -30,22 +30,22 @@ from progress import TwirlyBar
 from playlist import LastFMTrack
 
 from optparse import OptionParser
-
 	
+
 tb = TwirlyBar()
 
 def main():
-
-	parser = OptionParser()	
-
+	
+	parser = OptionParser()
+	
 	parser.add_option("-u", "--user_name",
 	                  action="store", dest="user_name",
 	                  help="Last.fm username")
-
+	
 	parser.add_option("-p", "--password",
 	                  action="store", dest="password",
 	                  help="Last.fm password")
-
+	
 	parser.add_option("-c", "--channel",
 	                  action="store", dest="channel",
 	                  help="Last.fm artist channel")
@@ -61,11 +61,11 @@ def main():
 	if options.user_name == None or options.password == None or options.channel == None:
 		parser.print_help()
 		exit(-1)
-
+	
 	session = lastfm.LastFMSession()
 	session.handshake(options.user_name, options.password)
-	
 
+	
 	session.set_artist(options.channel)
 	for x in range(1,10):
 		play_list = session.get_play_list()
@@ -74,14 +74,14 @@ def main():
 	print "All Done...."
 
 def ripTracks(play_list, dest):
-	
-	for track in play_list.tracks:
-		output_file_name = os.path.join(dest, track.name) + ".mp3     "
-		sys.stdout.write("\ndownloading file: " + output_file_name)
-		sys.stdout.flush()
-		track.rip(output_file_name, tb.ShowProgress)
-		tb.reset()
-	
+    for track in play_list.tracks:
+        fname = "%s - %s" %(track.artist, track.name)
+        output_file_name = os.path.join(dest, fname) + ".mp3     "
+        sys.stdout.write("\ndownloading file: " + output_file_name)
+        sys.stdout.flush()
+        track.rip(output_file_name, tb.ShowProgress)
+        tb.reset()
+
 def test():
 	pass
 
