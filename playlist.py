@@ -29,6 +29,7 @@ import elementtree.ElementTree as ET
 import urllib2
 import pprint
 from tagger import MP3Tagger
+import time
 
 class LastFMTrack:
 	read_buffer_size = 1024 * 10 #10K chuncks
@@ -72,11 +73,19 @@ class LastFMTrack:
 		
 class LastFMPlayList:
 	
-	def __init__(self, xml):
+	def __init__(self, url):
 		self.version 	= None
 		self.title		= None
 		self.tracks		= []
-		self.__parse__(xml)
+
+		try:
+			self.__parse__(url)
+		except:
+			# retry then fail
+			time.sleep(5)
+			self.__parse__(url)
+			
+
 		self.number_of_tracks = len(self.tracks)
 	
 	def __parse__(self, url):
@@ -95,8 +104,10 @@ class LastFMPlayList:
 									ele.findtext('image'))
 								
 				self.tracks.append(track)
-		except HTTPError, e:
-			print "Error while getting Playlist: %d: %s" %(e.errno, e.message)
+		except urllib2.HTTPError, e:
+			msg = "Error while getting Playlist: %d: %s" %(e.errno, e.message)
+			print msg
+			raise e
 	
 	def __str__ (self):
 		return "Play List: %s - Version: %s" %(self.title, self.version)
